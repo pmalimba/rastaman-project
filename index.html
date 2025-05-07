@@ -156,6 +156,17 @@
             This page was built by Paula Malimba
         </p>
     </div>
+    <script>
+        function more() {
+            let name = prompt("What's your name?");
+            let email = prompt("What's your email address?");
+            let emoji = prompt("What's your favourite emoji?");
+
+            alert("Thank you, " + name + ", we'll be in touch via email. Enjoy the music!!");
+        }
+        let morebutton = document.querySelector(".more-button");
+        morebutton.addEventListener("click", more);
+    </script>
     </div>
 </body>
 
